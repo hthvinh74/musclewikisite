@@ -1,0 +1,33 @@
+@media (max-width: 580px) {
+    .nav {
+        display: block;
+        padding-bottom: 0;
+    }
+
+    .main-body {
+        margin-top: 187px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .nav a {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .search-container {
+        padding: 15px;
+    }
+
+    .search-container ul {
+        width: 100%;
+    }
+
+    .search-container i {
+        margin: 15px;
+    }
+
+    .search-container #search {
+        width: 100%;
+    }
+}

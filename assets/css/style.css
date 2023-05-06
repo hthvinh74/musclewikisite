@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+ 
+img {
+    width: 100%;
+}
+
+/* Header */
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid #666;
+    background: #000;
+}
+
+.wrapper {
+    max-width: 1180px;
+    margin: auto;
+    width: 100%;
+} 
+
+/* nav  */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+/* logo  */
+.logo {
+    font-size: 22px;
+    color: #d9d9d9;
+    font-weight: 700;
+    margin: 0 auto 0 15px;
+    font-style: italic;
+} 
+
+.logo span {
+    color: green;
+}
+
+/* search  */
+
+.rcm-list {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid #fff;
+}
+
+.rcm-list {
+    position: absolute;
+    display: none;
+    box-shadow: 5px 10px 12px lightslategray;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    top: 42px;
+    left: 0;
+    border: 3px solid #fff;
+}
+
+.rcm-list li {
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    color: #999;
+}
+
+.rcm-list li:hover {
+    background: #000;
+    color: #fff;
+}
+
+#search:hover .rcm-list {
+    display: block;
+}
+
+.search-container:focus-within .rcm-list {
+    display: block;
+}
+
+#search {
+    outline: none;
+    width: 300px;
+    padding: 8px;
+}
+
+.search-container {
+    position: relative;
+    border: 1px solid #fff;
+}
+
+.mglass {
+    color: #d9d9d9;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+
+/* Body */
+.main-body {
+    margin-top: 111px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title-box h2 {
+    color: #fff;
+    background: #333;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    border: 1px solid #333;
+    padding: 20px 20px;
+}
+
+.title-box a {
+    color: #333;
+    font-weight: 500;
+}
+
+.title-box .box-items {
+    background-color: #fff;
+    padding: 20px 50px;
+}
+
+.title-box .box-items:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+/* Footer  */
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 80px;
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 1px solid #666;
+}
+
+.footer span {
+    font-weight: 800;
+    font-size: larger;
+    display: block;
+    margin-top: 40px;
+}
+
+/* Traps exercise page */
+.body-title {
+    border-bottom: 1px solid #333;
+    padding: 15px 15px 10px 15px;
+}
+
+.body-title a {
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.ex-des {
+    padding: 15px 15px 10px 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.ex-des img {
+    width: 20%;
+    border: 1px solid #333;
+}
+
+.ex-des h2 {
+    margin-top: 15px;
+    color: green;
+}
+
+.ex-des h3 {
+    margin-top: 15px;
+}
+
+.ex-des i {
+    font-size: large;
+    margin-right: 10px;
+    color: green;
+}
+
+/* video exercise  */
+
+.vid-exer {
+    margin-top: 20px;
+    display: block;
+}
+
+.video {
+    width: 100%;
+    border: 1px solid #333;
+}
