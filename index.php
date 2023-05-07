@@ -1,5 +1,5 @@
 <?php
-    include("config.php");
+    include('config.php');
     
     require_once('database/exercise_db.php');
 
