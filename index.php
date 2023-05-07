@@ -1,4 +1,6 @@
 <?php
+    include("config.php");
+    
     require_once('database/exercise_db.php');
 
     $get_exercise = get_exercises_by_name();
